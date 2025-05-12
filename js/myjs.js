@@ -8,23 +8,23 @@ let blog = document.getElementById("blog");
 let contact = document.getElementById("contact");
 
 
-switch (activePage) {
-  case  '/furni/index.html':
+switch (true) {
+  case activePage == '/furni/index.html':
     home.classList.add("nav-active");
     break;
-  case  '/furni/html-pages/shop.html':
+  case activePage =='/furni/html-pages/shop.html':
     shop.classList.add("nav-active");
     break;
-  case '/furni/html-pages/about.html':
+  case activePage =='/furni/html-pages/about.html':
     about.classList.add("nav-active");
     break;
-  case '/furni/html-pages/services.html':
+  case activePage == '/furni/html-pages/services.html':
     services.classList.add("nav-active");
     break;
-  case '/furni/html-pages/blog.html': 
+  case  activePage =='/furni/html-pages/blog.html': 
     blog.classList.add("nav-active");
     break;
-  case '/furni/html-pages/contact.html':
+  case activePage == '/furni/html-pages/contact.html':
     contact.classList.add("nav-active");
     break;
     default:home.classList.add("nav-active");
