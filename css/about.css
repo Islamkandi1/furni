@@ -1,0 +1,33 @@
+/* our-team */
+.our-team {
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+}
+.our-team h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.our-team .row .inner h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: .3rem;
+}
+.our-team .row .inner p{
+    color: #8f8f8f;
+    line-height: 30px;
+}
+.our-team .row .inner a{
+    color: var(--first-color);
+    font-weight: 500;
+}
+.our-team .row .inner a:hover{
+    text-decoration: none;
+}
+/* slider */
+.slider {
+    background-image: linear-gradient(to top, #eff2f1, transparent);
+    padding-bottom: 8rem;
+}
+
